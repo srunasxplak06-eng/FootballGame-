@@ -1,0 +1,10 @@
+body { margin:0; font-family: Arial; background:#4caf50; text-align:center; }
+h1 { color:#fff; text-shadow: 2px 2px #000; }
+#field { position: relative; width: 800px; height:400px; margin:20px auto; background: linear-gradient(to bottom, #1e6823, #4caf50); border:5px solid #fff; border-radius:15px; }
+.player { position:absolute; width:50px; height:50px; border-radius:50%; text-align:center; line-height:50px; font-weight:bold; color:#fff; }
+#player1 { background:blue; left:100px; bottom:150px; }
+#player2 { background:red; right:100px; bottom:150px; }
+#ball { position:absolute; width:30px; height:30px; background:white; border-radius:50%; left:385px; bottom:185px; }
+.goal { position:absolute; width:100px; height:50px; bottom:0; background:yellow; border:2px solid #000; }
+#goal1 { left:0; } #goal2 { right:0; }
+#score { margin-top:10px; color:#fff; font-size:1.2em; }
